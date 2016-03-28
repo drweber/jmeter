@@ -1,0 +1,1 @@
+java -server -Xms8g -Xmx8g -XX:NewSize=256m -XX:MaxNewSize=256m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:+UseConcMarkSweepGC -jar ApacheJMeter.jar --nongui --testfile ../scripts/WEBPERF-159/WEBPERF-159.jmx
